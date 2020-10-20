@@ -25,15 +25,15 @@ mocha
 说明：脚本test.js需要放置在test文件夹下
 
 
-## API文档
+## API文档(函数)
 
 >http://mockjs.com/0.1/
-
+z
 ## 示例
 
 >http://mockjs.com/examples.html
 
-## 数据模板编辑器
+## 在线数据模板编辑器
 
 >http://mockjs.com/0.1/editor.html#help
 
