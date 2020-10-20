@@ -1,0 +1,29 @@
+{
+  "name": "mockjs-demo",
+  "version": "1.0.0",
+  "description": "```shell\r npm install\r ```",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyinchigithub/mockjs-demo.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "liyinchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyinchigithub/mockjs-demo/issues"
+  },
+  "homepage": "https://github.com/liyinchigithub/mockjs-demo#readme",
+  "dependencies": {
+    "mocha": "^8.2.0",
+    "mockjs": "^1.1.0"
+  }
+}
