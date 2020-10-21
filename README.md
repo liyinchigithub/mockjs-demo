@@ -17,12 +17,18 @@ npm install
 ```shell
 npm install mocha -g
 ```
-
+### 所有脚本
 ```shell
 mocha
 ```
+>说明：脚本test.js需要放置在test文件夹下
 
-说明：脚本test.js需要放置在test文件夹下
+### 指定文件脚本
+```shell
+mocha ./test/xxx.js
+```
+
+
 
 
 ## API文档(函数)
@@ -56,10 +62,18 @@ Mock.js 的语法规范包括两部分：
 // 属性值   value
 'name|rule': value
 ```
-### 
 
-
-### 
-
-
-### 
+### 注意
+* 属性名 和 生成规则 之间用 | 分隔。
+* 生成规则 是可选的。
+* 生成规则 有 7 种格式：
+'name|min-max': value
+'name|count': value
+'name|min-max.dmin-dmax': value
+'name|min-max.dcount': value
+'name|count.dmin-dmax': value
+'name|count.dcount': value
+'name|+step': value
+* 生成规则 的 含义 需要依赖 属性值 才能确定。
+* 属性值 中可以含有 @占位符。
+* 属性值 还指定了最终值的初始值和类型。
